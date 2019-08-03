@@ -34,7 +34,7 @@ VERSION_NAME=0.0.1
 ```
 - 7 在library的build.gradle添加一行,:
 ```groovy
-apply from: 'https://raw.githubusercontent.com/relish-wang/script/master/push_to_jcenter.gradle'
+apply from: 'https://raw.githubusercontent.com/relish-wang/script/master/groovy/upload/push_to_jcenter.gradle'
 ```
 在根目录的build.gradle中的buildscript节点的dependencies节点里添加:
 ```groovy

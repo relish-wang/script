@@ -46,7 +46,7 @@ classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 ./gradlew clean build library:bintrayUpload
 ```
 - 9 上传成功后, 到bintary上点击“add to jcenter”，然后send，等上一晚上。
-其实此时也可以通过在根目录的build.gradle中添加`maven { url "https://oss.sonatype.org/content/groups/public" }`来进行依赖
+其实此时也可以通过在根目录的build.gradle中添加`maven { url "https://dl.bintray.com/relish-wang/maven/" }`来进行依赖
 - 10 审核通过后，就可以直接在其他项目中依赖了(当然你根目录的`build.gradle`中需要有jcenter())，像这样:
 ```groovy
 allprojects {
